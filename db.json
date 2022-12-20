@@ -1,0 +1,19 @@
+{
+  "profile": [
+    {
+      "nome": "Vico",
+      "email": "vico@petshop.com.br",
+      "id": 1
+    },
+    {
+      "nome": "Fofa",
+      "email": "fofa@petshop.com.br",
+      "id": 2
+    },
+    {
+      "nome": "Safira",
+      "email": "safira@petshop.com.br",
+      "id": 3
+    }
+  ]
+}
