@@ -10,13 +10,23 @@
 ## TODO
 - Ajustar a responsividade mobile
 
-### Json Server
-abrir a pasta admin no vscode e 
+## Json Server
+abra o repositório no vscode.
+No terminal digite:
+```
+npm install
+```
 rodar o json server: 
-```js
+```
 json-server --watch db.json
+```
+Ou (se o json-server não foi instalado globalmente)
 ```
 npx json-server --watch db.json
 ```
 
-~~Rodar: browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html~~
+Se você tiver a extensão Live Server no VScode não é necessário o passo abaixo: <br>
+Rodar: 
+```
+browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html
+```
